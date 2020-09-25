@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43A4F330DAC297DC34C8EB13 /* Pods_PavlosGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33239BDB6D57F2F4FD672B5 /* Pods_PavlosGame.framework */; };
+		AE13DA4323EF34BC002762B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13DA4223EF34BC002762B9 /* AppDelegate.swift */; };
+		AE13DA4723EF34BC002762B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13DA4623EF34BC002762B9 /* ViewController.swift */; };
+		AE13DA4A23EF34BC002762B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE13DA4823EF34BC002762B9 /* Main.storyboard */; };
+		AE13DA4C23EF34BE002762B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE13DA4B23EF34BE002762B9 /* Assets.xcassets */; };
+		AE13DA4F23EF34BE002762B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE13DA4D23EF34BE002762B9 /* LaunchScreen.storyboard */; };
+		AE13DA5923EF3C53002762B9 /* WinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13DA5823EF3C53002762B9 /* WinViewController.swift */; };
+		AE13DA5B23EF4E60002762B9 /* DeeplinkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13DA5A23EF4E60002762B9 /* DeeplinkManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1BBF450123EF7B1A00C72B1A /* CodesGenerator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CodesGenerator.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		311C6E9627990923A77C5F8D /* Pods-PavlosGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PavlosGame.debug.xcconfig"; path = "Target Support Files/Pods-PavlosGame/Pods-PavlosGame.debug.xcconfig"; sourceTree = "<group>"; };
+		9343C561A7AD65D309A5A3AE /* Pods-PavlosGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PavlosGame.release.xcconfig"; path = "Target Support Files/Pods-PavlosGame/Pods-PavlosGame.release.xcconfig"; sourceTree = "<group>"; };
+		AE13DA3F23EF34BC002762B9 /* PavlosGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PavlosGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE13DA4223EF34BC002762B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE13DA4623EF34BC002762B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE13DA4923EF34BC002762B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE13DA4B23EF34BE002762B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE13DA4E23EF34BE002762B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE13DA5023EF34BE002762B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE13DA5623EF34E5002762B9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE13DA5823EF3C53002762B9 /* WinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinViewController.swift; sourceTree = "<group>"; };
+		AE13DA5A23EF4E60002762B9 /* DeeplinkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkManager.swift; sourceTree = "<group>"; };
+		C33239BDB6D57F2F4FD672B5 /* Pods_PavlosGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PavlosGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE13DA3C23EF34BC002762B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A4F330DAC297DC34C8EB13 /* Pods_PavlosGame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		060A6C3E6286FC1DAD584178 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C33239BDB6D57F2F4FD672B5 /* Pods_PavlosGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B84B4E5FEC0BCD2282E47D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				311C6E9627990923A77C5F8D /* Pods-PavlosGame.debug.xcconfig */,
+				9343C561A7AD65D309A5A3AE /* Pods-PavlosGame.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE13DA3623EF34BC002762B9 = {
+			isa = PBXGroup;
+			children = (
+				1BBF450123EF7B1A00C72B1A /* CodesGenerator.playground */,
+				AE13DA5623EF34E5002762B9 /* Podfile */,
+				AE13DA4123EF34BC002762B9 /* PavlosGame */,
+				AE13DA4023EF34BC002762B9 /* Products */,
+				7B84B4E5FEC0BCD2282E47D8 /* Pods */,
+				060A6C3E6286FC1DAD584178 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE13DA4023EF34BC002762B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE13DA3F23EF34BC002762B9 /* PavlosGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE13DA4123EF34BC002762B9 /* PavlosGame */ = {
+			isa = PBXGroup;
+			children = (
+				AE13DA4223EF34BC002762B9 /* AppDelegate.swift */,
+				AE13DA4623EF34BC002762B9 /* ViewController.swift */,
+				AE13DA5823EF3C53002762B9 /* WinViewController.swift */,
+				AE13DA4823EF34BC002762B9 /* Main.storyboard */,
+				AE13DA4B23EF34BE002762B9 /* Assets.xcassets */,
+				AE13DA4D23EF34BE002762B9 /* LaunchScreen.storyboard */,
+				AE13DA5023EF34BE002762B9 /* Info.plist */,
+				AE13DA5A23EF4E60002762B9 /* DeeplinkManager.swift */,
+			);
+			path = PavlosGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE13DA3E23EF34BC002762B9 /* PavlosGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE13DA5323EF34BE002762B9 /* Build configuration list for PBXNativeTarget "PavlosGame" */;
+			buildPhases = (
+				C9170D31F6068895E1C2F109 /* [CP] Check Pods Manifest.lock */,
+				AE13DA3B23EF34BC002762B9 /* Sources */,
+				AE13DA3C23EF34BC002762B9 /* Frameworks */,
+				AE13DA3D23EF34BC002762B9 /* Resources */,
+				EF59FD22CE8EB6C375BB80BF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PavlosGame;
+			productName = PavlosGame;
+			productReference = AE13DA3F23EF34BC002762B9 /* PavlosGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE13DA3723EF34BC002762B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Oleksii Naboichenko";
+				TargetAttributes = {
+					AE13DA3E23EF34BC002762B9 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AE13DA3A23EF34BC002762B9 /* Build configuration list for PBXProject "PavlosGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE13DA3623EF34BC002762B9;
+			productRefGroup = AE13DA4023EF34BC002762B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE13DA3E23EF34BC002762B9 /* PavlosGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE13DA3D23EF34BC002762B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE13DA4F23EF34BE002762B9 /* LaunchScreen.storyboard in Resources */,
+				AE13DA4C23EF34BE002762B9 /* Assets.xcassets in Resources */,
+				AE13DA4A23EF34BC002762B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C9170D31F6068895E1C2F109 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PavlosGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF59FD22CE8EB6C375BB80BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PavlosGame/Pods-PavlosGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PavlosGame/Pods-PavlosGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PavlosGame/Pods-PavlosGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE13DA3B23EF34BC002762B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE13DA4723EF34BC002762B9 /* ViewController.swift in Sources */,
+				AE13DA4323EF34BC002762B9 /* AppDelegate.swift in Sources */,
+				AE13DA5B23EF4E60002762B9 /* DeeplinkManager.swift in Sources */,
+				AE13DA5923EF3C53002762B9 /* WinViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE13DA4823EF34BC002762B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE13DA4923EF34BC002762B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE13DA4D23EF34BE002762B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE13DA4E23EF34BE002762B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE13DA5123EF34BE002762B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE13DA5223EF34BE002762B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE13DA5423EF34BE002762B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 311C6E9627990923A77C5F8D /* Pods-PavlosGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7HFXW7UAP6;
+				INFOPLIST_FILE = PavlosGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pavlo.game;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE13DA5523EF34BE002762B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9343C561A7AD65D309A5A3AE /* Pods-PavlosGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7HFXW7UAP6;
+				INFOPLIST_FILE = PavlosGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pavlo.game;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE13DA3A23EF34BC002762B9 /* Build configuration list for PBXProject "PavlosGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE13DA5123EF34BE002762B9 /* Debug */,
+				AE13DA5223EF34BE002762B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE13DA5323EF34BE002762B9 /* Build configuration list for PBXNativeTarget "PavlosGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE13DA5423EF34BE002762B9 /* Debug */,
+				AE13DA5523EF34BE002762B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE13DA3723EF34BC002762B9 /* Project object */;
+}

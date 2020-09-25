@@ -1,0 +1,26 @@
+PODS:
+  - PMAlertController (4.0.0)
+  - QRCodeReader.swift (10.1.0)
+  - SDWebImage (5.5.2):
+    - SDWebImage/Core (= 5.5.2)
+  - SDWebImage/Core (5.5.2)
+
+DEPENDENCIES:
+  - PMAlertController
+  - QRCodeReader.swift
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - PMAlertController
+    - QRCodeReader.swift
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  PMAlertController: 5fad2da8b9eb687134ed50c3462fed12c3afe976
+  QRCodeReader.swift: 373a389fe9a22d513c879a32a6f647c58f4ef572
+  SDWebImage: 4d5c027c935438f341ed33dbac53ff9f479922ca
+
+PODFILE CHECKSUM: f5fdfc9769e5793b8c2142166c3c39b88f55f455
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mwx-di-aeG">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Игра-->
+        <scene sceneID="eVI-zb-frP">
+            <objects>
+                <viewController id="mUX-vq-ym7" customClass="ViewController" customModule="PavlosGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Euh-KI-VZS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="1Tg-RZ-5DJ">
+                                <rect key="frame" x="20" y="60" width="374" height="288"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="REt-dM-Row">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="220"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Вопрос" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oxh-gM-B4i">
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="36"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="WZp-U8-7t6">
+                                                <rect key="frame" x="0.0" y="44" width="374" height="68"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 + 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C33-aP-oou">
+                                                        <rect key="frame" x="0.0" y="0.0" width="326" height="68"/>
+                                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="48"/>
+                                                        <color key="textColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="254" verticalHuggingPriority="254" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IEd-qc-chO">
+                                                        <rect key="frame" x="334" y="0.0" width="40" height="68"/>
+                                                        <state key="normal" image="volume_icon"/>
+                                                        <connections>
+                                                            <action selector="tapToVolumeButton" destination="mUX-vq-ym7" eventType="touchUpInside" id="iRY-l7-cTz"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0M0-Ud-XpQ">
+                                                <rect key="frame" x="0.0" y="120" width="374" height="44"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="continue"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gO-8L-kSg">
+                                                <rect key="frame" x="0.0" y="172" width="374" height="48"/>
+                                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                <state key="normal" title="Ответить"/>
+                                                <connections>
+                                                    <action selector="tapToAnswerButton" destination="mUX-vq-ym7" eventType="touchUpInside" id="Gur-r6-qsJ"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0n-VJ-IfT">
+                                        <rect key="frame" x="0.0" y="240" width="374" height="48"/>
+                                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                        <state key="normal" title="Сканировать QR"/>
+                                        <connections>
+                                            <action selector="tapToScanQRButton" destination="mUX-vq-ym7" eventType="touchUpInside" id="OmA-Hj-lEY"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.64046526400000003" green="0.93670088200000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1Tg-RZ-5DJ" firstAttribute="leading" secondItem="UzH-ng-MxL" secondAttribute="leading" constant="20" id="bf2-ju-fAg"/>
+                            <constraint firstItem="1Tg-RZ-5DJ" firstAttribute="top" secondItem="UzH-ng-MxL" secondAttribute="top" constant="60" id="d9o-bK-2ym"/>
+                            <constraint firstItem="UzH-ng-MxL" firstAttribute="trailing" secondItem="1Tg-RZ-5DJ" secondAttribute="trailing" constant="20" id="jGX-sO-PHV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="UzH-ng-MxL"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Игра" id="Uz8-fL-zc3">
+                        <barButtonItem key="rightBarButtonItem" image="camera_icon" id="tFN-qA-taJ">
+                            <connections>
+                                <action selector="tapToScanQRButton" destination="mUX-vq-ym7" id="KEC-uv-wVD"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="answerButton" destination="9gO-8L-kSg" id="mkj-tu-de0"/>
+                        <outlet property="answerTextField" destination="0M0-Ud-XpQ" id="gsi-61-TED"/>
+                        <outlet property="questionAndAnswerStackView" destination="REt-dM-Row" id="g6C-vh-QDl"/>
+                        <outlet property="questionLabel" destination="C33-aP-oou" id="J1g-Wl-nHa"/>
+                        <outlet property="scanQRButton" destination="m0n-VJ-IfT" id="P4i-tK-wI2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M4a-Oe-DaA" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="786.95652173913049" y="518.30357142857144"/>
+        </scene>
+        <!--Win View Controller-->
+        <scene sceneID="y3N-tU-DJG">
+            <objects>
+                <viewController storyboardIdentifier="WinViewController" id="Rl5-ns-S3v" customClass="WinViewController" customModule="PavlosGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="E2R-RL-I1X">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="253" verticalHuggingPriority="253" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3bb-RI-bqO">
+                                <rect key="frame" x="20" y="794" width="374" height="48"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <state key="normal" title="Играть еще"/>
+                                <connections>
+                                    <action selector="tapToCloseButton" destination="Rl5-ns-S3v" eventType="touchUpInside" id="Af2-oy-IXy"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="T2x-3U-DGM" customClass="SDAnimatedImageView">
+                                <rect key="frame" x="20" y="156" width="374" height="618"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ура! Ты ответил правильно!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HF2-I4-OS5">
+                                <rect key="frame" x="20" y="64" width="374" height="72"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="hJL-6n-E1O">
+                                <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
+                                <color key="color" red="0.86666666670000003" green="0.4039215686" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.64046526400000003" green="0.93670088200000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3bb-RI-bqO" firstAttribute="top" secondItem="T2x-3U-DGM" secondAttribute="bottom" constant="20" id="12E-5S-Vrg"/>
+                            <constraint firstItem="u7I-Bd-O0J" firstAttribute="bottom" secondItem="3bb-RI-bqO" secondAttribute="bottom" constant="20" id="2fM-Sw-Ao2"/>
+                            <constraint firstItem="hJL-6n-E1O" firstAttribute="centerX" secondItem="E2R-RL-I1X" secondAttribute="centerX" id="FmW-pg-vgi"/>
+                            <constraint firstItem="u7I-Bd-O0J" firstAttribute="trailing" secondItem="HF2-I4-OS5" secondAttribute="trailing" constant="20" id="P9y-e9-XBp"/>
+                            <constraint firstItem="HF2-I4-OS5" firstAttribute="top" secondItem="u7I-Bd-O0J" secondAttribute="top" constant="20" id="TQn-47-Vlc"/>
+                            <constraint firstItem="T2x-3U-DGM" firstAttribute="leading" secondItem="u7I-Bd-O0J" secondAttribute="leading" constant="20" id="TyS-Sj-7Lk"/>
+                            <constraint firstItem="u7I-Bd-O0J" firstAttribute="trailing" secondItem="T2x-3U-DGM" secondAttribute="trailing" constant="20" id="Yrc-Nq-1Mp"/>
+                            <constraint firstItem="T2x-3U-DGM" firstAttribute="top" secondItem="HF2-I4-OS5" secondAttribute="bottom" constant="20" id="cyG-da-fIh"/>
+                            <constraint firstItem="hJL-6n-E1O" firstAttribute="centerY" secondItem="E2R-RL-I1X" secondAttribute="centerY" id="da5-nt-qYN"/>
+                            <constraint firstItem="3bb-RI-bqO" firstAttribute="leading" secondItem="u7I-Bd-O0J" secondAttribute="leading" constant="20" id="oh7-m0-k1m"/>
+                            <constraint firstItem="u7I-Bd-O0J" firstAttribute="trailing" secondItem="3bb-RI-bqO" secondAttribute="trailing" constant="20" id="pA8-Xc-0WZ"/>
+                            <constraint firstItem="HF2-I4-OS5" firstAttribute="leading" secondItem="u7I-Bd-O0J" secondAttribute="leading" constant="20" id="xpK-gf-OzR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="u7I-Bd-O0J"/>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicatorView" destination="hJL-6n-E1O" id="J6Q-ZR-Gty"/>
+                        <outlet property="closeButton" destination="3bb-RI-bqO" id="I82-4O-rPf"/>
+                        <outlet property="imageView" destination="T2x-3U-DGM" id="dXV-mC-KJG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nKh-15-Ug3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1721.7391304347827" y="517.63392857142856"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="orI-Vb-5dn">
+            <objects>
+                <navigationController id="mwx-di-aeG" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="SVg-qZ-9Qv">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="mUX-vq-ym7" kind="relationship" relationship="rootViewController" id="dy5-Kj-hlC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tLR-I2-nb6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-186" y="519"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="camera_icon" width="28" height="28"/>
+        <image name="volume_icon" width="40" height="38"/>
+    </resources>
+    <color key="tintColor" red="0.23137254900000001" green="0.59215686270000001" blue="0.72941176470000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</document>
